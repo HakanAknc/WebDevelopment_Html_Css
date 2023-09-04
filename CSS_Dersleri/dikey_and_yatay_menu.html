@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>
+        /* dikey menü */
+        ul{
+            list-style-type: none;
+            width: 40%;
+        }
+
+        ul li{
+            padding: 10px;
+            background-color: aqua;
+            margin-left: -30px;
+        }
+
+        ul li:hover{
+            background-color: red;
+            transition: 0.10s;
+        }
+
+        ul li a{
+            text-decoration: none;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        ul li:nth-child(1){
+            background-color: green;
+        }
+        
+        i{
+            padding-right: 5px;
+            color: black;
+        }
+
+        /* yatay menü */
+        ol{
+            list-style-type: none;
+            width: 100%;
+        }
+
+        ol li{
+            display: inline-block;
+            width: 100px;
+            padding: 15px;
+            background-color: aqua;
+            margin-left: -30px;
+        }
+
+        ol li a:hover{
+            background-color: red;
+            transition: 0.10s;
+        }
+
+        ol li a{
+            text-decoration: none;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        ol li:nth-child(1){
+            background-color: green;
+        }
+        
+        i{
+            padding-right: 5px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+        <li><a href="#"><i class="fa-solid fa-newspaper"></i>News</a></li>
+        <li><a href="#"><i class="fa-solid fa-address-book"></i>Contact</a></li>
+        <li><a href="#"><i class="fa-regular fa-address-card"></i>About</a></li>
+    </ul>
+
+    <br>
+    <br>
+
+    <ol>
+        <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+        <li><a href="#"><i class="fa-solid fa-newspaper"></i>News</a></li>
+        <li><a href="#"><i class="fa-solid fa-address-book"></i>Contact</a></li>
+        <li><a href="#"><i class="fa-regular fa-address-card"></i>About</a></li>
+    </ol>
+</body>
+</html>

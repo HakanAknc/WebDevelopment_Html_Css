@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>
+        ul{
+            list-style-type: none;
+            width: 100%;
+        }
+
+        ul li{
+            display: inline-block;
+            width: 100px;
+            padding: 15px;
+            background-color: aqua;
+            margin-left: -30px;
+        }
+
+        ul li:hover{
+            background-color: red;
+            transition: 0.10s;
+        }
+
+        ul li a{
+            text-decoration: none;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        /* ul li:nth-child(1){
+            background-color: green;
+        } */
+        
+        i{
+            padding-right: 5px;
+            color: black;
+        }
+
+        #news-content{
+            position: absolute;
+            z-index: 1;
+            display: none;
+            margin-top: 15px;
+            margin-left: -25px;
+            width: 100px;
+        }
+
+        .news-li:hover #news-content{
+            display: block;
+        }
+
+        #news2-content{
+            position: absolute;
+            z-index: 1;
+            display: none;
+            margin-left: 105px;
+            margin-top: -33px;
+        }
+
+        .news2-li:hover #news2-content{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+        <li class="news-li">
+            <a href="#"><i class="fa-solid fa-newspaper"></i>News</a>
+            <div id="news-content">
+                <ul>
+                    <li style="display: block;"><a href="#">News 1</a></li>
+                    <li class="news2-li" style="display: block;"><a href="#">News 2</a>
+
+                        <div id="news2-content">
+                            <ul>
+                                <li><a href="#">Detail 1</a></li>
+                                <li><a href="#">Detail 2</a></li>
+                                <li><a href="#">Detail 3</a></li>
+                                <li><a href="#">Detail 4</a></li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li style="display: block;"><a href="#">News 3</a></li>
+                    <li style="display: block;"><a href="#">News 4</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#"><i class="fa-solid fa-address-book"></i>Contact</a></li>
+        <li><a href="#"><i class="fa-regular fa-address-card"></i>About</a></li>
+    </ul>
+</body>
+</html>

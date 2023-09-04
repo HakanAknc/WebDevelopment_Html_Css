@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* *{
+            color: red;
+        } */
+
+        /* p{
+            color: blue;
+        } */
+
+        /* p,h3{
+            color: blueviolet;
+        } */
+
+        /* div p{
+            color: yellow;
+        } */
+
+        /* div>p{
+            color: red;
+        } */
+
+        /* div+p{
+            color: red;
+        } */
+    </style>
+</head>
+<body>
+    <!-- 
+        1- *{} = tüm elemanları etkiler
+        2- p{} = etiket ismini etkiler
+        3- p,h3{} = etiket ismini etkiler
+        4- div p{} = etiket içindeki elementleri etkiler
+        5- div>p{} = div içindeki bütün p'ler
+        6- div+p{} = div elementin,den hemen sonra ki 1 tane etiketi etkiler
+     -->
+
+    <div>
+        <p>paragraf 1</p>
+        <p>paragraf 2</p>
+        <p>paragraf 3</p>
+        <p>paragraf 4</p>
+        <p>paragraf 5</p>
+
+        <nav>
+            <p>paragraf6</p>
+            <a href="">link 1</a>
+            <a href="">link 2</a>
+            <a href="">link 3</a>
+        </nav>
+    
+        <a href="">link 4</a>
+        <a href="">link 5</a>
+    </div>
+    <div class="div2">
+        <p>paragraf 7</p>
+        <p>paragraf 8</p>
+        <p>paragraf 9</p>
+    </div>
+    <p>paragraf 10</p>
+    <p>paragraf 11</p>
+    <div>
+        <h3>h3 etiketi 1</h3>
+    </div>
+    <h3>h3 etiketi 2</h3>
+    <h3>h3 etiketi 3</h3>
+    <h3>h3 etiketi 4</h3>
+    <h2>Hakan Akıncı</h2>
+    <h1>Evren Akıncı</h1>
+</body>
+</html>

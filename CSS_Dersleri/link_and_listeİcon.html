@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* 
+        link  : ilk halidir
+        hover : üzerine geldiğinde
+        active  : linkin üzerine tıklanıldığında
+        visited  : site ziyaret edildikten sonra link rengi
+        */
+        a:link{
+            color: red;
+            text-decoration: none;
+        }
+
+        a:hover{ 
+            color: orange;
+        }
+
+        a:active{
+            color: blue;
+        }
+        
+        a:visited{
+            color: pink;
+        }
+
+        /* liste icon */
+        .a{
+            list-style-type: circle;
+        }
+
+        .b{
+            list-style-type: square;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.google.com/">Google</a>
+
+    <br>
+
+    <ul class="a">
+        <li>Çay</li>
+        <li>Kahve</li>
+        <li>Salep</li>
+    </ul>
+    <ol class="b">
+        <li>Çay</li>
+        <li>Kahve</li>
+        <li>Salep</li>
+    </ol>
+</body>
+</html>

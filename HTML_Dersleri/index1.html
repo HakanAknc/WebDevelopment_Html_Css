@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <!--
+        10- ol(ordinary list) , ul(unordinary list)  :  (ol)numaralı ve (ul)numarasız listeler
+        11- table, tr, td, th, rowspan(satırları birleştirir), colspan(sütünları birleştirir): tablo etiketi
+        12- inline ve block mantığı
+    -->
+<body>
+    <h3>Sıcak İçecekler</h3>
+     <ul>
+        <li>Kahve</li>
+        <li>Çay</li>
+        <li>Sütlaç</li>
+     </ul>
+     <h3>Soğuk İçecekler</h3>
+     <ol>  <!--<ol type="1|a|A|i|I"> şeklinde de yazılıyr-->
+        <li>Kola</li>
+        <li>Fanta</li>
+        <li>Gazoz</li>
+     </ol>
+
+     <hr>
+
+     <!--Örnek-->
+    <ol>
+        <li>İç Donanım Birimleri</li>
+        <ol type="I">
+            <li>Anakart</li>
+            <li>İşlemci</li>
+            <li>Bellek</li>
+        </ol>
+        <li>Dış Donanım Birimleri</li>
+        <ol>
+            <li>Monitor</li>
+            <ol type="a">
+                <li>LCD</li>
+                <li>LED</li>
+            </ol>
+            <li>Klavye</li>
+            <li>Fare</li>
+        </ol>
+    </ol>
+
+    <hr>
+
+    <h3>TÜRKİYR-ŞEHİRLERİ</h3>
+    <ul>
+        <li>İstanbul'un Önemli İlçeleri</li>
+        <ul>
+            <li>Fatih</li>
+            <li>Bakırköy</li>
+            <li>Kadıköy</li>
+        </ul>
+        <li>Ankara'nın Önemli İlçeleri</li>
+        <ol type="i">
+            <li>Çankaya</li>
+            <li>Yenimahallee</li>
+        </ol>
+    </ul>
+
+    <hr>
+    <br>
+
+    <table border="1"> <!-- satır ve sütünların kalınlığını belirler -->
+        <tr> <!-- satır oluşturur. -->
+            <th>İsim</th>  <!-- veri girmeye başlıyorum th daha kalın yapar-->
+            <th>Soyisim</th>
+            <th>Yaş</th>
+        </tr>
+        <tr>
+            <td>Hakan</td>
+            <td>Akıncı</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Evren</td>
+            <td>Akıncı</td>
+            <td>5</td>
+        </tr>
+    </table>
+
+    <hr>
+    <br>
+
+    <table border="1">
+        <tr>
+            <th colspan="3">Kişisel Bilgiler</th>
+        </tr>
+        <tr>
+            <td>Hakan</td>
+            <td>Akıncı</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Evren</td>
+            <td>Akıncı</td> 
+            <td>5</td>
+        </tr>
+    </table>
+
+    <hr>
+    <br>
+
+    <table border="1">
+        <tr>
+            <th colspan="3">Kişisel Bilgiler</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Soyisim</td>
+            <td>Akyüz</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Akıncı</td> 
+            <td>5</td>
+        </tr>
+    </table>
+
+    <hr>
+    <br>
+
+    <p>Hakan</p>
+    <h2>İletişim Sayfası</h2>
+    <span>Telif hakları saklıdır.</span>  <!-- blok element değilidir -->
+
+</body>
+</html>

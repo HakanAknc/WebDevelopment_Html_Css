@@ -1,0 +1,71 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2em;
+    padding: 2em;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-info {
+    flex: 1;
+    padding: 0 2em;
+}
+
+.product-info h2 {
+    margin-bottom: 0.5em;
+}
+
+.buy-button {
+    background-color: #333;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #444;
+}
+
+.reviews {
+    margin: 2em;
+    padding: 2em;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.review {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ddd;
+}
+
+footer{
+    text-align: center;
+}
