@@ -42,3 +42,34 @@ Bu repo, HTML ve CSS ile ilgili uygulama yapmak için örnek projeler içerir. B
 ## Katkıda Bulunma
 
 Bu proje açık kaynaklıdır ve katkıda bulunmak her zaman hoş karşılanır. Katkıda bulunmak için bir çekme isteği göndermek veya sorunları bildirmek için GitHub'da bu repo ile iletişime geçebilirsiniz.
+
+
+# Örnek
+
+# Sosyal Medya Profili
+
+Bu basit web sayfası, bir sosyal medya profilini temsil eden bir HTML ve CSS şablonunu içerir. İşte bu projenin temel özellikleri:
+
+## Önizleme
+
+![Proje Görüntüsü](screenshot.png)
+
+## HTML Şablonu
+- `<!DOCTYPE html>` ile başlayan HTML5 belge türü tanımı.
+- Başlık, profil resmi, kullanıcı adı, biyografi ve istatistikler içeren bir profil bölümü.
+
+## Temel Stiller (CSS)
+- Sayfa genelinde varsayılan stil ayarları: font, arka plan rengi, kenar boşluğu ve iç boşluklar.
+- Profil bölümünün özelleştirilmiş stil özellikleri: metin hizalama, arka plan rengi, kenar yuvarlatma, gölge ve maksimum genişlik.
+- Profil resminin stil ayarları: kenar yuvarlatma ve boyutlandırma.
+- Kullanıcı adı ve istatistiklerin stil ayarları: metin rengi ve kenar boşluğu.
+
+## Kullanım
+1. HTML dosyasında profil resmini ve içeriği doldurarak kendi sosyal medya profilinizi oluşturun.
+2. CSS dosyasını düzenleyerek stil ve tasarımı özelleştirin.
+3. Profilinizi tarayıcıda önizleyin ve kullanıcılarınızla paylaşın.
+
+## Katkılar
+- Eğer bu projeye katkıda bulunmak isterseniz, "Fork" yaparak kendi sürümünüzü oluşturabilir veya hataları düzeltebilirsiniz.
+- Herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen bir "Issue" açarak paylaşın.
+
